@@ -2,7 +2,6 @@ from datetime import date
 from shutil import copyfile
 
 date_backup = date.today()
-print(date_backup)
 
 str_date_backup = str(date_backup).replace('-', '.')
 
